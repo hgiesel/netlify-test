@@ -13,9 +13,12 @@
   "license": "ISC",
   "packageManager": "pnpm@10.11.1",
   "devDependencies": {
+    "@types/bun": "latest",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3",
-    "@types/bun": "latest"
+    "typescript": "^5.8.3"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@netlify/functions": "^4.1.15"
+  }
 }
